@@ -35,6 +35,7 @@ public class ApplicationConstructorTest {
         OrderServiceImpl orderService = new OrderServiceImpl(memoryMemberRepository, new FixDiscountPolicy());
 
         orderService.CreateOrder(1L,"itemA",100000);
+        System.out.println("test111");
     }
 
 }
