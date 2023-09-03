@@ -27,7 +27,6 @@ public class ApplicationDependencyTest {
         OrderServiceImpl orderService = new OrderServiceImpl(memberRepository, discountPolicy);
         orderService.CreateOrder(1L,"itemA",100000);
 
-        System.out.println("commit test222");
     }
 
 }
